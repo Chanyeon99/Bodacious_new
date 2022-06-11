@@ -193,13 +193,13 @@ html,body {
         background-repeat: no-repeat;
         background-image: url('./assets/img/bg-what-we-experts-desktop.svg');
         background-position: right top;
-        height: 600px;
+        min-height: 800px;
     } 
 }
 .container_heading {
     margin-top: 10px;
     font-weight: 600;
-    font-size: 80px;
+    font-size: 100px;
     text-align: center;
     line-height: 96px;
 }
@@ -218,33 +218,92 @@ html,body {
     font-size: 1.4rem;
     font-weight: 700;
     margin: 100px auto 14px;
+    display: flex;
+    justify-content: center;
 }
 .container_achievement--item{
     width: fit-content;
     position: relative;
     
 }
+.circle {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    z-index: 3;
+    border-radius: 50%;
+    background-color: rgb(66, 208, 128);
+    opacity: 0.3;
+    position: relative;
+}
 .container_achievement--item:before {
     content: "";
-    position: relative;
-    width: 34px;
-    height: 34px;
-    /* background-color: rgb(66, 208, 128); */
-    background-color: red;
-    margin-right: 10px;
-    opacity: 1;
-    border-radius: 100%;
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    background-color: rgb(145, 215, 58); 
+    left: -35px;
+    border-radius: 50%; 
+ }
+.container_award {
+    display: flex;
+    list-style: none;
+    justify-content: center;
 }
-.container_achievement--item:after {
-    content: "";
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    background-color: rgb(66, 208, 128);
-    margin-left: 10px;
-    left: 0;
-    border-radius: 100%;
+.container_award-item {
+    margin: 0 15px;
+    }
+.container_award-item img{
+    width: 120px;
+}
+.container_provide {
+    display: flex;
+    
+}
+.container_provide--heading {
+    width: 150px;
+}
+.container_provide--heading>a{
+    font-size: 1.9rem;
+}
+.container_provide--heading-sub{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.container_provide a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.container_provide--right {
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f3f6;
+    position: relative;
+    color: var(--primary-color);
+    font-size: 1rem;
+    margin: 10px 10px;
+    border: 2px solid rgb(241, 243, 246);
+    padding: 10px;
+    border-radius: 4px;
+    width: 336px;
+    height: 182px;
+    background-image: linear-gradient(rgb(241, 243, 246) 2%, rgb(255, 255, 255));
+}
+.container_provide--right-icon{
+    width: 30px;
+    height: 30px;
+}
+.container_provide--right-heading {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+.container_provide--right-sub {
+    color: rgb(129, 135, 154) !important;
+}
+.container_provide--heading-sub{
+
 }
 /*top right bottom left i see the word wrap on the site but i don't kyess*/
-
-   
