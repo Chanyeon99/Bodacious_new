@@ -275,7 +275,7 @@ html,body {
     text-decoration: none;
 }
 .container_provide--right {
-    
+    transition: all 0.3s ease-in-out 0s;
     display: flex;
     flex-direction: column;
     background-color: #f1f3f6;
@@ -310,15 +310,31 @@ html,body {
     background: rgb(16, 23, 48);
     width: 100%;
     height: 474px;
-
+    margin-top: 200px;
 }
 .how-we-do:before {
     content: "";
     position: absolute;
     width: 100%;
     height: 53px;
-    background: url(./assets/img/top_rectangle.svg) center cover no-repeat ;
+    background: url(./assets/img/top_rectangle.svg) center bottom / cover no-repeat;
+    left: 0;
+    height: 15vw;
+    top: -15vw;
     /* background-size: auto | length | cover | contain | initial | inherit; */
+    margin-left: 0;
+}
+.how-we-do:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 53px;
+    background: url(./assets/img/bg-how-we-do-bottom.svg) center bottom / cover no-repeat;
+    left: 0;
+    height: 15vw;
+    bottom: -15vw;
+    /* background-size: auto | length | cover | contain | initial | inherit; */
+    margin-left: 0;
 }
 .position-relative {
     position: relative;
