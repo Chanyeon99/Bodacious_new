@@ -1,34 +1,19 @@
-:root {
-    --white-color: #fff;
-    --black-color: #000;
-    --text-color: #333;
-    --primary-color: #202b50;
-    --sub-color: #81879a;
-    --navbar-height: 34px;
-    --header-height: 120px;
-    --star-gold-color: #FFCE3E;
-    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
-    }
-* {
-    box-sizing: border-box;
-}
-html,body {
-    margin: 0;
-    padding: 0;
-    font-family: "Proxima Nova",Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
-}
-.row {
-    display: flex;/**/  
-    flex-wrap: wrap; 
-    margin-left: -4px;
-    margin-right: -4px;
-}
+
 .container_provide--heading-sub{
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: 500;
+}
+.flex-center {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 250px;
+
+}
+.flex-center-column {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
 }
 .header {
     /* margin-top:33px ; */
@@ -129,9 +114,6 @@ html,body {
     line-height: 22.4px;
     color: var(--primary-color);
 }
-.header_right--item-heading {
-
-}
 .transition_1{
     line-height: 24px;
 }
@@ -140,7 +122,6 @@ html,body {
     position: absolute;
     transition: all 0.3s ease 0s;
 }
-
 .header_right--item .transition_1:hover {
     -webkit-transform: translate(3em,0);
     -moz-transform: translate(3em,0);
@@ -209,32 +190,37 @@ html,body {
     width: 500px;
     margin: 0 auto 27px;
 }
-.container_btn-start {
-    height: 48px;
-}
 .container_achievement {
-    font-size: 1.4rem;
-    font-weight: 700;
     margin: 100px auto 14px;
     display: flex;
-    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+}
+.container_achievement--sub {
+    margin-top: 50px;
+    position: relative;
 }
 .container_achievement--item{
     width: fit-content;
-    position: relative;
-    
+  
 }
 .circle {
-    width: 30px;
     height: 30px;
+    width: 30px;
+    background-color: #3ad13a;
+    border-radius: 50%;
+    border: 7px solid rgb(145,215, 166);
     margin-right: 10px;
+    /* width: 50px;
+    height: 50px;
+    
     z-index: 3;
     border-radius: 50%;
     background-color: rgb(66, 208, 128);
-    opacity: 0.3;
-    position: relative;
+    opacity: 1;
+    position: relative; */
 }
-.container_achievement--item:before {
+/* .container_achievement--item:before {
     content: "";
     position:absolute;
     width: 20px;
@@ -243,7 +229,7 @@ html,body {
     background-color: rgb(145, 215, 58); 
     left: -35px;
     border-radius: 50%; 
- }
+ } */
 .container_award {
     display: flex;
     list-style: none;
@@ -259,6 +245,18 @@ html,body {
     display: flex;
     
 }
+.provide_background{
+     position: relative;
+    background-repeat: no-repeat;
+    background-image:  url(https://fabatechnology.com/home-page/home-service-bg.svg);
+    background-size: auto;
+    background-position: 50px top;
+    padding-left: 1.5rem;
+    min-height: 800px;
+}
+.padding-css {
+    padding-top: 130px;
+}
 .container_provide--heading {
     width: 150px;
 }
@@ -270,9 +268,13 @@ html,body {
     text-transform: uppercase;
     font-weight: 500;
 }
-.container_provide a{
+.flex-center a{
     color: var(--primary-color);
     text-decoration: none;
+}
+.container_provide_include_right{
+    z-index: 1;
+    
 }
 .container_provide--right {
     transition: all 0.3s ease-in-out 0s;
@@ -421,5 +423,43 @@ html,body {
 }
 .how-we-do--left-learn-more {
     margin-right: 63px;
+}
+.container__expert {
+    background-image: url(./assets/img/we-experts.svg);
+    background-size: auto;
+    background-position: right top; 
+    background-repeat: no-repeat;
+    height: 135%;
+}
+.container__expert::before {
+    content: "";
+    position: absolute;
+}
+.container__expert::after{
+
+}
+.container__expert--heading {
+
+}
+.container__expert--list {
+    list-style: none;
+    z-index:5;
+
+}
+.container__expert--item {
+
+}
+.container__expert-row {
+
+}
+.container__expert-img {
+
+}
+.container__expert--item-heading {
+
+}
+.container__expert--item-sub {
+    color: var(--sub-color);
+
 }
 /*top right bottom left i see the word wrap on the site but i don't kyess*/

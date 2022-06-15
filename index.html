@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technology</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -71,13 +72,15 @@
         <section class="style--img">
             <h1 class="container_heading">  Build your<br>Remote Team          </h1>
             <h5 class="container_sub">Let our outstanding tech talents give you more than just a helping hand</h5>
-            <buttun class="btn container_btn-start"><span>GET START</span></buttun>
             <div class="container_achievement">
-                <span class="circle"></span>
-                <span class="container_achievement--item">
-                    Our Awards & Achievements
-                </span>
-            </div>
+                <buttun class="btn container_btn-start">GET START</buttun>
+                <div class="container_achievement--sub">
+                    <span class="circle"></span>
+                    <span class="container_achievement--item">
+                        Our Awards & Achievements
+                    </span>
+
+                </div>
             <ul class="container_award">
                 <li class="container_award-item">
                     <img src="https://fabatechnology.com/home-page/award-clutch-2020-3x.png" alt="">
@@ -101,29 +104,34 @@
                     <img src="https://fabatechnology.com/home-page/certificates-sys-ops.png" alt="">
                 </li>
             </ul>
-            <div class="container_provide">
-                <h2 class="container_provide--heading">
+            </div>
+            <div class="flex-center">
+                <div class="container_provide--heading padding-css">
                     <a href="" class="">What We Provide </a>
                     <span class="container_provide--heading-sub">
                         <a href="" class="container_provide--heading-sub">Learn more</a>
                         <i class="fa-solid fa-arrow-right transition_1"></i>
                     </span>
-                </h2>
-                <div class="container_provide--right">
-                    <img src="https://fabatechnology.com/icons/icon-new-offshore.svg" alt="" class="container_provide--right-icon">
-                    <h5 class="container_provide--right-heading">Offshore Development</h5>
-                    <span class="container_provide--right-sub">Go beyond your in-house team and get access to our vast software engineering talent pool.</span>
                 </div>
-                <div class="container_provide--right">
-                    <img src="https://fabatechnology.com/icons/icon-new-dev-op.svg" alt="" class="container_provide--right-icon">
-                    <h5 class="container_provide--right-heading">DevOps services</h5>
-                    <span class="container_provide--right-sub">Automate your workflows to deliver more value. Focus on the Dev and leave the Ops to us.</span>
+                <div class="container_provide_include_right flex-center padding-css">
+                    <div class="provide_background">                
+                    <div class="container_provide--right">
+                        <img src="https://fabatechnology.com/icons/icon-new-offshore.svg" alt="" class="container_provide--right-icon">
+                        <h5 class="container_provide--right-heading">Offshore Development</h5>
+                        <span class="container_provide--right-sub">Go beyond your in-house team and get access to our vast software engineering talent pool.</span>
+                    </div>
+                    <div class="container_provide--right">
+                        <img src="https://fabatechnology.com/icons/icon-new-dev-op.svg" alt="" class="container_provide--right-icon">
+                        <h5 class="container_provide--right-heading">DevOps services</h5>
+                        <span class="container_provide--right-sub">Automate your workflows to deliver more value. Focus on the Dev and leave the Ops to us.</span>
+                    </div>
+                </div>
                 </div>
             </div>
         </section>
-        <sectio1n class="how-we-do deco">
+        <section class="how-we-do deco flex-center ">
             <div class="position-relative row">
-                <div class="how-we-do--group row">
+                <div class="how-we-do--group">
                     <div class="how-we-do--group-card">
                         <img src="https://fabatechnology.com/icons/icon-new-dedicate-team.svg" alt="" class="how-we-do--img" >
                         <h5 class="how-we-do--card-heading">Dedicated Team</h5>
@@ -153,7 +161,53 @@
                     </span>
                 </div>
             </div>
-        </sectio1n>
+        </section>
+        <section class="container__expert flex-center">
+            <h2 class="container__expert--heading">What We Are Expert At</h2>
+            <ul class="container__expert--list">
+                <li class="container__expert--item">
+                    <div class="container__expert-row">
+                        <img src="https://fabatechnology.com/icons/icon-new-web.svg" alt="" class="container__expert-img">
+                        <h2 class="container__expert--item-heading">Web Development</h2>
+                    </div>
+                    <span class="container__expert--item-sub">We use the best-in-class frameworks to build sites that work for your business.</span>
+                </li>
+                <li class="container__expert--item">
+                    <div class="container__expert-row">
+                        <img src="https://fabatechnology.com/icons/icon-new-mobile.svg" alt="" class="container__expert-img">
+                        <h2 class="container__expert--item-heading">Mobile Development</h2>
+                    </div>
+                    <span class="container__expert--item-sub">We enable you to work on the go with native and hybrid mobile development.</span>
+                </li>
+                <li class="container__expert--item">
+                    <div class="container__expert-row">
+                        <img src="https://fabatechnology.com/icons/icon-new-design.svg" alt="" class="container__expert-img">
+                        <h2 class="container__expert--item-heading">UX/UI Design</h2>
+                    </div>
+                    <span class="container__expert--item-sub">We solve your performance problems using human-centered design methods.</span>
+                </li>
+                <li class="container__expert--item">
+                    <div class="container__expert-row">
+                        <img src="https://fabatechnology.com/icons/icon-new-qa.svg" alt="" class="container__expert-img">
+                        <h2 class="container__expert--item-heading">Quality Assurance</h2>
+                    </div>
+                    <span class="container__expert--item-sub">We maximize the test coverage to deliver high-quality softwares.</span>
+                </li>
+                <li class="container__expert--item">
+                    <div class="container__expert-row">
+                        <img src="https://fabatechnology.com/icons/icon-new-pm.svg" alt="" class="container__expert-img">
+                        <h2 class="container__expert--item-heading">Project Management</h2>
+                    </div>
+                    <span class="container__expert--item-sub">No matter Agile or Waterfall, we make sure your project stays well-organized.</span>
+                </li>
+            </ul>
+        </section>
+        <section class="container__experience">
+            <div class="container__experience--heading">
+
+            </div>
+            .container__experience
+        </section>
     </div>
 </body>
 </html>
