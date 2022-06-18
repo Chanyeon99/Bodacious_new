@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="359" height="330">
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="c">
+            <stop stop-color="#04A8F5" offset="0%"/>
+            <stop stop-color="#04A8F5" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="d">
+            <stop stop-color="#04A8F5" offset="0%"/>
+            <stop stop-color="#04A8F5" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="e">
+            <stop stop-color="#04A8F5" offset="0%"/>
+            <stop stop-color="#04A8F5" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="f">
+            <stop stop-color="#04A8F5" offset="0%"/>
+            <stop stop-color="#04A8F5" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="g">
+            <stop stop-color="#04A8F5" offset="0%"/>
+            <stop stop-color="#04A8F5" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="h">
+            <stop stop-color="#04A8F5" offset="0%"/>
+            <stop stop-color="#04A8F5" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <rect id="a" x="0" y="0" width="343" height="330" rx="8"/>
+        <rect id="j" x="0" y="9" width="32" height="32" rx="2"/>
+        <filter x="-43.8%" y="-31.2%" width="187.5%" height="187.5%" filterUnits="objectBoundingBox" id="i">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.148574 0" in="shadowBlurOuter1"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(16)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <use fill="#101730" xlink:href="#a"/>
+            <g opacity=".68" mask="url(#b)" stroke-width=".72">
+                <g transform="matrix(0 -1 -1 0 421.5 149.5)">
+                    <ellipse stroke="url(#c)" transform="rotate(-46 54.936 175.435)" cx="54.936" cy="175.435" rx="7.871" ry="39.807"/>
+                    <ellipse stroke="url(#d)" transform="rotate(-46 70.749 162.222)" cx="70.749" cy="162.222" rx="14.785" ry="58.245"/>
+                    <ellipse stroke="url(#e)" transform="rotate(-46 82.691 151.429)" cx="82.691" cy="151.429" rx="24.003" ry="77.012"/>
+                    <ellipse stroke="url(#f)" transform="rotate(-46 95.87 141.694)" cx="95.87" cy="141.694" rx="30.588" ry="92.815"/>
+                    <ellipse stroke="url(#g)" transform="rotate(-46 105.032 128.825)" cx="105.032" cy="128.825" rx="36.184" ry="110.265"/>
+                    <ellipse stroke="url(#h)" transform="rotate(-46 117.916 114.971)" cx="117.916" cy="114.971" rx="40.248" ry="122.76"/>
+                </g>
+            </g>
+        </g>
+        
+        
+        
+        
+    </g>
+</svg>
