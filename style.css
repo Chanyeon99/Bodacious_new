@@ -18,7 +18,7 @@
     display: flex;
     align-content: center;
     height: 80px;
-    line-height: 80px;
+    line-height: 55px;
     background-color: var(--white-color);
     justify-content: space-around;
     box-shadow: 0 1px 0px #e9e6e6;
@@ -175,7 +175,7 @@
     }
     }
     .container-heading {
-    margin-top: 10px;
+    margin-top: 102px;
     font-weight: 600;
     font-size: 100px;
     text-align: center;
@@ -553,14 +553,35 @@
 .container-contact-img {
     background-image: url(./assets/img/retangle.svg);
     width: 745px;
-    height: 322px;
+    height: 365px;
     background-size: cover;
     background-position: 100% 0%;
     background-repeat: no-repeat;
     position: relative;
     margin: 20px auto;
-    padding: 1px 12% 118px;
+    padding: 1px 12% 138px;
     text-align: center;
+}
+.container-contact-img::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+    background-color: rgb(4, 168, 245);
+    left: 13px;
+    top: 60px;
+}
+
+.container-contact-img::after {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+    background-color: rgb(4, 168, 245);
+    bottom: 50px;
+    right: -10px;
 }
 .container-contact-heading {
 
@@ -577,11 +598,16 @@
 .container-contact-btn {
 
 }
+.first-column {
+    /* padding-left: -40px; */
+    text-align: left;
+}
 .container-contact-btn-white{
     color: var(--primary-color);
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
-    padding: 12px 8px;
-    
+    padding: 16px 18px;
+    border-radius: 8px;
+    margin-top: 27px;
 }
     /*top right bottom left i see the word wrap on the site but i don't kyess*/
