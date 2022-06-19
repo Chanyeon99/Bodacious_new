@@ -84,12 +84,6 @@ html,body {
     left: 20px;
     background-image: linear-gradient(rgb(194, 199, 206) 11%, rgb(247, 240, 240));
 }
-.flex-center-expert {
-     display: flex;
-     flex-wrap: wrap;
-} 
-.container-expert::after {
-}
 .container-expert-heading {
      text-align: left;
      font-size: 48px;
