@@ -503,7 +503,7 @@
 }
 .row-brand{
     display: flex;
-    flex-wrap: wrap; 
+    max-width: 1450px;
     margin-left: -8px;
     margin-right: -8px;
 }
@@ -521,7 +521,7 @@
 }
 .custom-title {
     flex: 0 0 calc(50% - 10px);
-    border-radius: 4px;
+   
 }
 .row-brand-second {
     flex: 0 0 25%;
@@ -534,8 +534,11 @@
     line-height: 122px;
 }
 .brand-img {
+    border-radius: 8px;
     border: 2px solid rgb(241, 243, 246);
     background-image: linear-gradient(rgb(241, 243, 246) 2%, rgb(255, 255, 255));
+    position: relative;
+    margin: 5px; 
 }
 .container-contact {
     background-image: url(./assets/bg-let-work-together.svg);
@@ -609,5 +612,16 @@
     padding: 16px 18px;
     border-radius: 8px;
     margin-top: 27px;
+}
+.copyright {
+    border-top: 1px solid rgb(226, 226, 226);
+    max-width: 1450px;
+    margin: 0px 130px;
+}
+.copyright-desc {
+    color: var(--sub-color);
+    text-align: left;
+    padding: 24px 0px 40px;
+
 }
     /*top right bottom left i see the word wrap on the site but i don't kyess*/
